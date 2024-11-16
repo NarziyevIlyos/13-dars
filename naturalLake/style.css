@@ -1,0 +1,71 @@
+body {
+    background-color: rgba(103, 96, 102, 0.662);
+    color: rgba(80, 60, 60, 0.614);
+    font-weight: bold;
+    font-family: calibre;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    width: 350px;
+    margin: 30px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.card-wrapper {
+    padding: 8px;
+}
+
+.card-header > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card__search {
+    padding-top: 30px;
+}
+.card__search-nature, 
+.card__search-lake {
+    padding: 4px;
+    border: 2px solid rgba(0, 0, 0, 0.265);
+    border-radius: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.598);
+    
+}
+
+.card-body {
+    padding: 10px;
+}
+.card__title {
+    text-align: center;
+    color: rgba(41, 38, 38, 0.813);
+}
+
+.card__text {
+    font-size: 24px;
+    font-weight: 500px;
+    text-align: justify;
+}
+
+.card-body > a {
+    display: block;
+    width: 100px; 
+    margin: 0 auto;
+    border-radius: 16px;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(32, 32, 215, 0.801);
+    background-color: rgb(196, 224, 224);
+}
+
+.card-body span{
+    text-align: center;
+    font-weight: inherit;
+}
